@@ -1,3 +1,5 @@
+
+
 def list1():
     l=[]
     let=int(input("enter the range of list"))
@@ -9,5 +11,7 @@ def list1():
     print(l)
 
     return l
-list()
+
+#call function
+list1()
 
