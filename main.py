@@ -5,6 +5,7 @@ def list1():
         a=int(input("enter the number"))
         l.append(a)
         l.append(a)
+        # This is some code. Not written by me . XD
     print(l)
 
     return l
