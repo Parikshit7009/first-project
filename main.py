@@ -9,3 +9,5 @@ def list1():
     print(l)
 
     return l
+list()
+
