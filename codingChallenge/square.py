@@ -1,4 +1,6 @@
 def square():
-    print(4**4)
-    return 4**4
+    Number=int(input("enter the number who's square you want to find out"))
+    sq=Number**Number
+    print(sq)
+square()
 
