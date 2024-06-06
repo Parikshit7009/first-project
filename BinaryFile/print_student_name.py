@@ -7,3 +7,4 @@ for i in read:
     if N in c:
         print()
 F.close()
+
