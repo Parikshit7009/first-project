@@ -6,5 +6,6 @@ for i in read:
     c=i.split()
     if N in c:
         print()
+print()
 F.close()
 
