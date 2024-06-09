@@ -1,15 +1,16 @@
 #Triange made using loop
-F="NnNOnoNo"#use this string in line 14
-G="YyYESYesyes"
+F="NnNOnoNo"#use this string in line 15
+G="YyYESYesyes"#use this string in line 17
 while True:
-    s=int(input("Enter a Number which should be greater than 4"))
+    s=int(input("Enter a Number which should be greater than 4-:"))
+    m=input("enter the design")
     if s<4:
         print("Error")
-        break
+        break #loop break 
     else:
         for i in range(0,s,1):
             for j in range(0,i+1,1):
-                print(i,end="")
+                print(m,end="")
             print()
     n=input("want to continue or not Y OR N")
     if n in F:
@@ -19,4 +20,4 @@ while True:
     else:
         print("Error")
         break
-    
+print("")
