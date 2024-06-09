@@ -1,7 +1,7 @@
 #Triange AND Square  made using loop
 F="NnNOnoNo"#use this string in line 15
 G="YyYESYesyes"#use this string in line 17
-d='rectangle square'
+d="rectangle square"
 while True:
     o=input("Select your shape Triangle or (square/ rectangle) ")
     s=int(input("Enter a Number which should be greater than 4-:"))
