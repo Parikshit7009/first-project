@@ -28,5 +28,4 @@ while True:
         continue
     else:
         print("Error")
-        print("unable to ")
         break
