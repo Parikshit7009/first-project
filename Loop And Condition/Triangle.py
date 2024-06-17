@@ -7,7 +7,7 @@ while True:
     m=input("enter the design")
     s=int(input("Enter a Number which should be greater than 4-:"))
     if s<4:
-        print("Error")
+        print("Error(Value might be less than 4)")
         break
     else:
         if o in D:
