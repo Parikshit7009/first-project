@@ -5,7 +5,7 @@ def circle():
 circle()
 
 def rectangle():
-    l=int(inout("enter the lenght"))
+    l=int(input("enter the lenght"))
     b=int(input("enter the breath"))
     n=l*b
     print(n)
