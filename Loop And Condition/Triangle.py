@@ -27,5 +27,5 @@ while True:
     elif n in G:
         continue
     else:
-        print("Error")
+        print("Error 404")
         break
