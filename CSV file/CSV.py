@@ -21,3 +21,5 @@ def create():
         else:
             print("unknown Character enter -ERROR 404-")
             break
+    f.close()
+create()
