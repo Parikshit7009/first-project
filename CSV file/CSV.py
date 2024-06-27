@@ -3,7 +3,7 @@ M="NOnoNo"
 Y="yesYesYES"
 def create():
     f=open("Student.csv","w",newline='')
-    obj=csv.DictWriter(f)
+    obj=csv.writer(f)
     header=["Student Name","Roll_No","Class","Age"]
     obj.writerow(header)
     while True:
