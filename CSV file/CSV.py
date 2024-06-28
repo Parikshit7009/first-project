@@ -14,9 +14,9 @@ def create():
         rec=[Std,rollno,Class,Age]
         obj.writerow(rec)
         ch=input("Want to add more data or not Yes/NO:-")
-        if ch==M:
+        if ch in M:
             break
-        elif ch==Y:
+        elif ch in Y:
             continue
         else:
             print("unknown Character enter -ERROR 404-")
