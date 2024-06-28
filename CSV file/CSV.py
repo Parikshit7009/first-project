@@ -5,8 +5,12 @@ def create():
     N="NOnoNo"
     Y="yesYesYES"
     obj=csv.writer(f)
-    header=["Student Name","Roll_No","Class","Age"]
-    obj.writerow(header)
+    n=input("want to add header")
+    if n in N:
+        print()
+    else:
+        header=["Student Name","Roll_No","Class","Age"]
+        obj.writerow(header)
     while True:
         Std=input("enter the student name:-")
         rollno=int(input("enter the roll no:-"))
