@@ -7,6 +7,7 @@ def display():
     for i in obj:
         if i[0]==name:
             print(i)
+            print(len(str(i))*"-")
         else:
             print("No such data available by this name") 
     f.close()
