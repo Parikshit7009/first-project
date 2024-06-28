@@ -1,5 +1,5 @@
 import csv
-M="NOnoNo"
+N="NOnoNo"
 Y="yesYesYES"
 def create():
     f=open("Student.csv","w",newline='')
@@ -14,7 +14,7 @@ def create():
         rec=[Std,rollno,Class,Age]
         obj.writerow(rec)
         ch=input("Want to add more data or not Yes/NO:-")
-        if ch in M:
+        if ch in N:
             break
         elif ch in Y:
             continue
