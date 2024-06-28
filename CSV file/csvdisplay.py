@@ -1,6 +1,6 @@
 import csv
 def display():
-    f=open("Student.csv","r")
+    f=open("Student1.csv","r")
     
     obj=csv.reader(f)
     next(f)

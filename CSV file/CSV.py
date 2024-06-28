@@ -1,7 +1,7 @@
 import csv
 
 def create():
-    f=open("Student.csv","a",newline='')
+    f=open("Student1.csv","a",newline='')
     N="NOnoNo"
     Y="yesYesYES"
     obj=csv.writer(f)
