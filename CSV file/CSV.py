@@ -2,7 +2,7 @@ import csv
 N="NOnoNo"
 Y="yesYesYES"
 def create():
-    f=open("Student.csv","w",newline='')
+    f=open("Student.csv","a",newline='')
     obj=csv.writer(f)
     header=["Student Name","Roll_No","Class","Age"]
     obj.writerow(header)
