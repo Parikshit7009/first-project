@@ -1,9 +1,6 @@
 import csv
-
 def create():
     f=open("Student1.csv","a",newline='')
-    N="NOnoNo"
-    Y="yesYesYES"
     obj=csv.writer(f)
     n=input("want to add header")
     if n in N:
@@ -18,10 +15,10 @@ def create():
         Age=int(input("enter the age:-"))
         rec=[Std,rollno,Class,Age]
         obj.writerow(rec)
-        ch=input("Want to add more data or not Yes/NO:-")
-        if ch in N:
+        ch=input("Want to add more data ENTER Y(YES)/N(No):-")
+        if ch=="N":
             break
-        elif ch in Y:
+        elif ch=="Y":
             continue
         else:
             print("unknown Character enter -ERROR 404-")
