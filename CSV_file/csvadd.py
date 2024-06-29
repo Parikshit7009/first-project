@@ -2,12 +2,6 @@ import csv
 def create():
     f=open("Student1.csv","a",newline='')
     obj=csv.writer(f)
-    n=input("want to add header")
-    if n in N:
-        print()
-    else:
-        header=["Student Name","Roll_No","Class","Age"]
-        obj.writerow(header)
     while True:
         Std=input("enter the student name:-")
         rollno=int(input("enter the roll no:-"))
