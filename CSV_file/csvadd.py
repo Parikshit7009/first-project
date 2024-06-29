@@ -1,5 +1,5 @@
 import csv
-def create():
+def Add_Data():
     f=open("Student1.csv","a",newline='')
     obj=csv.writer(f)
     while True:
@@ -18,4 +18,4 @@ def create():
             print("unknown Character enter -ERROR 404-")
             break
     f.close()
-create()
+Add_Data()
