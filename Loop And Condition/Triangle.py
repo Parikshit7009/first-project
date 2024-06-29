@@ -8,7 +8,6 @@ D="rectangle square"#this string is in use in line 13
 while True:
     s=int(input("Enter a Number which should be greater than 4-:"))
     m=input("enter the design")
-
     o=input("Select your shape Triangle or (square/ rectangle) ")
     m=input("enter the design")
     s=int(input("Enter a Number which should be greater than 4-:"))
