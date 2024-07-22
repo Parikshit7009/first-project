@@ -1,9 +1,7 @@
 import csv
 def display():
     f=open("Student1.csv","r")
-    
-    obj=csv.reader(f)
-    
+    obj=csv.reader(f) 
     while True:
         next(f)
         name=input("enter the student name")
