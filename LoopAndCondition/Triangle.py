@@ -10,6 +10,8 @@ def shape():
        s=int(input("Enter a Number which should be greater than 4-:"))
        m=input("enter the design")
        o=input("Select your shape Triangle or (square/ rectangle) ")
+       m=input("enter the design")
+       s=int(input("Enter a Number which should be greater than 4-:"))
        if s<4:
         print("Error(Value might be less than 4)")
         break
