@@ -1,8 +1,5 @@
 #in progress
-from CSV_file.csvadd import *
-from CSV_file.csvdisplay import *
-from CSV_file.header import *
-from LoopAndCondition.Triangle import *
+from MAIN.Import import*
 FUN=int(input("Select one option from above="))
 if FUN==1:
     print("1. Add Header")
@@ -22,7 +19,17 @@ if FUN==1:
         else:
            print("wrong input")
            break
+        n="noNONo"
+        y="yesYesYES"
+        ch=input("want to enter more data")
+        if ch in n:
+           break
+        elif ch in y:
+           continue
+        else:
+           break
+
 elif FUN==2:
    shape()
 elif FUN==3:
-   
+   print("no")
