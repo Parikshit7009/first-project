@@ -2,8 +2,8 @@ import csv
 def display():
     f=open("Student1.csv","r")
     obj=csv.reader(f) 
-    while True:
-        next(f)
+    next(f)
+    while True:  
         name=input("enter the student name")
         for i in obj:
             if i[0]==name:
@@ -13,4 +13,3 @@ def display():
         if ch =="n":
             break
     f.close()
-display()
