@@ -28,7 +28,6 @@ if FUN==1:
            continue
         else:
            break
-
 elif FUN==2:
    shape()
 elif FUN==3:
