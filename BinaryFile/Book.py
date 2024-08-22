@@ -1,5 +1,5 @@
-import pickle
-def createfile():
+
+def createbook():
     fobj=open("book.dat","wb")
     bookno=int(input("enter the book number"))
     book_name=input("enter the book name")
@@ -8,7 +8,7 @@ def createfile():
     rec=[bookno,book_name,author,price]
     pickle.dump(rec,fobj)
     fobj.close()
-createfile()
+
 
 
 def countrec():
@@ -19,5 +19,5 @@ def countrec():
     if author==rec[2]:
         num=mum+1
     fobj.close()
-countrec()
+
 
