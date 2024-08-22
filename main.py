@@ -29,6 +29,33 @@ if FUN==1:
         else:
            break
 elif FUN==2:
-   shape()
+   shape()#loop
 elif FUN==3:
-   print("no")
+   print("1. Want to enter book data ")
+   print("2. want to enter the student data")
+   fun3=int(input("select any one option form the above"))
+   if fun3==1:
+      print("1. Want to add data  ")
+      print("2. want count the data")
+      fun3=int(input("select any one option form the above"))
+      if fun3==1:
+         createbook()
+      elif fun3==2:
+         countrec()
+      else:
+         print("error ")
+
+   elif fun3==2:
+      print("1. Want to add data  ")
+      print("2. want access the data")
+      fun3=int(input("select any one option form the above"))
+      if fun3==1:
+         binary()
+      elif fun3==2:
+         bindisplay()
+      else:
+         print("error ")
+
+
+elif FUN==4:
+   print("coming soon")
