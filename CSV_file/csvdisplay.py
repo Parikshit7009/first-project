@@ -1,4 +1,4 @@
-
+import csv
 def display():
     f=open("Student1.csv","r")
     obj=csv.reader(f) 

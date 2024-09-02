@@ -1,4 +1,4 @@
-
+import pickle
 def binary():
     F=open("Student.dat","wb")
     L={}

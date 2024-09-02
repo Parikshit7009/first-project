@@ -44,7 +44,7 @@ elif FUN==3:
          countrec()
       else:
          print("error ")
-
+      
    elif fun3==2:
       print("1. Want to add data  ")
       print("2. want access the data")
@@ -55,7 +55,5 @@ elif FUN==3:
          bindisplay()
       else:
          print("error ")
-
-
 elif FUN==4:
-   print("coming soon")
+   print("coming soon")#still..
