@@ -56,4 +56,8 @@ elif FUN==3:
       else:
          print("error ")
 elif FUN==4:
-   print("coming on 4th sept")#still..
+   fun4=input("enter the text file name -for ex -fun3.txt")
+   if fun4.endswith('.txt'):
+      countword(fun4)
+   else:
+      print("wrong file")
