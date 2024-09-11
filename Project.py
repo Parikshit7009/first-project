@@ -8,13 +8,13 @@ if FUN==1:
     print("---------------")
     print("3. Display the data")
     print("---------------")
-    ch=int(input("SELECT ONE OPTION FORM ABOVE OPTION "))
+    fun1=int(input("SELECT ONE OPTION FORM ABOVE OPTION "))
     while True:
-        if ch == 1:
+        if fun1 == 1:
            Header()
-        elif ch ==2:
+        elif fun1 ==2:
            Add_Data()
-        elif ch==3:
+        elif fun1==3:
            display()
         else:
            print("wrong input")
