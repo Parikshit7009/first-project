@@ -6,6 +6,6 @@ def countword(fun4):
             c=0
             for i in word:
                c=c+1
-               print(c)
+            print(c)
     except:
         print("file not available")
