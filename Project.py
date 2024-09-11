@@ -61,3 +61,5 @@ elif FUN==4:
       countword(fun4)
    else:
       print("wrong file")
+
+      #more option coming in 4th option
