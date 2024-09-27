@@ -63,3 +63,6 @@ elif FUN==4:
       print("wrong file")
 
       #more option coming in 4th option
+elif FUN==5:
+   fun5=int(input())
+   
