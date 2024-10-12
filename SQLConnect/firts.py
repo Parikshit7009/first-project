@@ -21,4 +21,4 @@ def sql1():
             break
     con.commit()
     con.close()
-sql1()
+
