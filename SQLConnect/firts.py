@@ -9,7 +9,7 @@ def sql1():
        Name=input("enter the nane of student-: ")
        rollno=int(input("Enter the roll number"))
        section=input("Enter the section")
-       obj="INSERT into student value({},'{}',{},'{}')".format("Class","Name","rollno","section")
+       obj="INSERT into student value({},'{}',{},'{}')".format(Class,Name,rollno,section)
        cur.execute(obj)
        ch=input("Want to add more data ENTER Y(YES)/N(No):-")
        if ch=="N":
@@ -17,7 +17,7 @@ def sql1():
        elif ch=="Y":
             continue
        else:
-            print("unknown Character enter -ERROR 404- ")
+            print("unknown Character enter -ERROR- ")
             break
     con.commit()
     con.close()
