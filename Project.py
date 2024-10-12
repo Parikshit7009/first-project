@@ -64,4 +64,6 @@ elif FUN==4:
 
       #more option coming in 4th option
 elif FUN==5:
-   Print("login page")
+   Print("login page(work in progress (base on java language))")
+elif FUN==6:
+   sql1()
