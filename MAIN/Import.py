@@ -6,3 +6,4 @@ from MAIN.Print import *
 from BinaryFile.add_student_data import *
 from BinaryFile.Book import *
 from file1.count_words import*
+from SQLConnect.firts import*
